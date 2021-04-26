@@ -47,7 +47,7 @@ Another issue is that with this method is impossible to repeat the measurement o
 
 This tecnique take place in the `cache probing xs-leaks` toghether with other, more reliable, timing attacks which use `onload`/`onerror` triggers. The `image.complete` property do not provides advantages over this methodologies, it only have the peculiarity that timers aren't needed: this could lead to an advantage if will come a moment in which browser vendors decide to change the resolution of the `performance.now()` return value (such as FireFox already does) in order to try to mitigate different kinds of timing attacks.
 
-Another really important thing to know is that, since early 2021, this technique (such as many other `cache probing xs-leaks`) will not work anymore on browsers that implements partitioned caches like Safari and Chromium-based ones.
+Another really important thing to know is that, since late 2020, this technique (such as many other `cache probing xs-leaks`) will not work anymore on browsers that implements partitioned caches like Safari and Chromium-based ones.
 
 I hope this can be useful for you :).
 
