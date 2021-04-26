@@ -4,7 +4,7 @@ title:  "[XS-Leaks] Cache Probing through image.complete property"
 date:   2021-04-24 10:09:37 +0200
 categories: xs-leaks
 ---
-During the work I done together with my colleague [brasco][brasco-github] for my master thesis discussed in November 2020 at University of Pavia, we discovered a side channel that relies on the loading time of an image, but this is not a mainstrem timing xs-leak since timers are not used.
+During the work I done together with my colleague [brasco][brasco-github] for my master thesis discussed in November 2020 at University of Pavia, we discovered a side channel that relies on the loading time of an image, but this is not a mainstrem timing xs-leak since explicit timers are not used.
 
 It is possible to perform cache probing through the complete property of image elements. This property, as the name said, returns a boolean value which tells us if the related image has complete the load or not. The conditions to satisfy to get a complete load of the image are shown in the complete property [MDN web doc][MDN-web-doc]. Under the assumption that an attacker is interested in knowing if a specific image is present in the victim’s browser cache memory, then this property can be exploited:
 
