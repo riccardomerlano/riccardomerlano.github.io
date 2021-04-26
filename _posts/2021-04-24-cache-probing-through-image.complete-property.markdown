@@ -4,7 +4,7 @@ title:  "[XS-Leaks] Cache Probing through image.complete property"
 date:   2021-04-24 10:09:37 +0200
 categories: xs-leaks
 ---
-During the work I done together with my colleague [brasco][brasco-github] for my master thesis discussed in November 2020 at University of Pavia, we discovered a side channel that relies on the loading time of an image, but this is not a mainstrem timing xs-leak since timers are not used:
+During the work I done together with my colleague [brasco][brasco-github] for my master thesis discussed in November 2020 at University of Pavia, we discovered a side channel that relies on the loading time of an image, but this is not a mainstrem timing xs-leak since timers are not used.
 
 It is possible to perform cache probing through the complete property of image elements. This property, as the name said, returns a boolean value which tells us if the related image has complete the load or not. The conditions to satisfy to get a complete load of the image are shown in the complete property [MDN web doc][MDN-web-doc]. Under the assumption that an attacker is interested in knowing if a specific image is present in the victim’s browser cache memory, then this property can be exploited:
 
@@ -43,9 +43,9 @@ await load_and_check('target_image_url.jpeg');
 One appreciable caracteristic of this tecnique is that it works also for resource different from images elements.
 
 Unfortunately, this method have many drawbacks. First of all it only works in a reliable way only if the resource comes from `memory cache` while if it comes from `disk cache` it can generate many false positives. However, by overturning the logic of the attack, so "trying to understand when it comes from the web" istead of "trying to understand if it comes from cache" should help to solve this problem. 
-Another issue is that with this method is impossible to repeat the measurement once is performed the first check since the image will be cached, for this reason the following checks will all give a `cached: True` response.
+Another issue is that with this method is impossible to repeat the measurement once is performed the first check since the image will be cached, for this reason following checks in a short timewindow will all give a `cached: True` response.
 
-This tecnique take place in the `cache probing xs-leaks` toghether with other, more reliable, timing attacks which use `onload`/`onerror` triggers. The `image.complete` property do not provides advantages over this methodologies, it oly have the peculiarity that timers aren't needed: this could lead to an advantage if will come a moment in which browser vendors decide to change the resolution of the `performance.now()` return value (such as FireFox already does) in order to try to mitigate different kinds of timing attacks.
+This tecnique take place in the `cache probing xs-leaks` toghether with other, more reliable, timing attacks which use `onload`/`onerror` triggers. The `image.complete` property do not provides advantages over this methodologies, it only have the peculiarity that timers aren't needed: this could lead to an advantage if will come a moment in which browser vendors decide to change the resolution of the `performance.now()` return value (such as FireFox already does) in order to try to mitigate different kinds of timing attacks.
 
 Another really important thing to know is that, since early 2021, this technique (such as many other `cache probing xs-leaks`) will not work anymore on browsers that implements partitioned caches like Safari and Chromium-based ones.
 
