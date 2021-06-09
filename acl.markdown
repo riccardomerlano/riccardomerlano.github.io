@@ -50,7 +50,7 @@ Date provvisorie: `24-25/luglio/2021`
 ### Escape room:
  - [EnigmaRoom](https://www.enigmaroom.it/escape-room-milano/), Milano: [maniac palace](https://www.enigmaroom.it/escape-palace-maniac-palace/) escape room all’interno di un edificio abbandonato. Si ha 1 ora e mezza per uscire. Bisogna essere minimo in 10, sennò si può essere accorpati a altri gruppi, in ogni caso lo stesso posto fa anche altre escape room più contenute . Quella del palazzo abbandonato è in `Via Giacomo Medici del Vascello, 26`, mentre le altre pare siano in `Via Privata Raimondo Montecuccoli, 29`.
 
-### GoKart (in ordine di come gli ho trovati su internet):
+### GoKart (in ordine di come li ho trovati su internet):
  - [DromoKart](https://www.dromokart.com/over-14/), Buccinasco: Sabato e Domenica aperti solo dopo le 15;
  - [BigKart](https://www.gokart.it/index.php?pagina=prezzi), Rozzano;
  - [OttobianoMotorsport](https://www.southmilanokarting.com/noleggio-kart/mini-gp-tra-amici.html), Ottobiano: il più costoso ma forse anche il più professionale.
