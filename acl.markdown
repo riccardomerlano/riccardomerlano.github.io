@@ -15,21 +15,21 @@ Date: `24-25/luglio/2021`
 >
 > Rispetto alla versione precedente, ho messo informazioni più precise su una serie di cose.
 
-<>## Opzione 1 (favorito il sabato)
-<>### Sabato: 
-<> - Estrazione e colazione in piazza, possibilmente con il classico **costume umiliante**;
-<> - Trasferimento e attività **n°1** (vedi sezione attività);
-<> - Pranzo;
-<> - Trasferimento e attività **n°2**;
-<> - (opzionale a seconda delle attività precedenti) attività **n°3**;
-<> - Viaggio verso **S.Vincent** (per i guerrieri); -> ideale partire per le 16/16:30
-<> - Check-in, doccia, cose così;
-<> - Cena;
-<> - **Diventare ricchi** al casinò;
+[comment]: <> ## Opzione 1 (favorito il sabato)
+[comment]: <> ### Sabato: 
+[comment]: <> - Estrazione e colazione in piazza, possibilmente con il classico **costume umiliante**;
+[comment]: <> - Trasferimento e attività **n°1** (vedi sezione attività);
+[comment]: <> - Pranzo;
+[comment]: <> - Trasferimento e attività **n°2**;
+[comment]: <> - (opzionale a seconda delle attività precedenti) attività **n°3**;
+[comment]: <> - Viaggio verso **S.Vincent** (per i guerrieri); -> ideale partire per le 16/16:30
+[comment]: <> - Check-in, doccia, cose così;
+[comment]: <> - Cena;
+[comment]: <> - **Diventare ricchi** al casinò;
 
-<### Domenica:
-<> - Sveglia, colazione, **capire se si è ancora vivi**;
-<> - Rientro
+[comment]: <> ### Domenica:
+[comment]: <> - Sveglia, colazione, **capire se si è ancora vivi**;
+[comment]: <> - Rientro
 
 ## Programma
 ### Sabato (per chi vuol venire a S.Vincent):
@@ -59,10 +59,10 @@ Date: `24-25/luglio/2021`
  - [Impossible Society](https://theimpossiblesociety.it/), Milano: Zona Porta Ticinese, vicino ai navigli. È una escape room con buone recensioni, e rispetto a quella seguente mi sembra abbia proposte più suggestive. Ho chiamato per informazioni, fino a 6 persone sono 100 euro, da aggungere 10 euro per ogni persona in più. Indirizzo esatto: `Corso di Porta Ticinese, 107`.
  - [EnigmaRoom](https://www.enigmaroom.it/escape-room-milano/), Milano: [maniac palace](https://www.enigmaroom.it/escape-palace-maniac-palace/) escape room all’interno di un edificio abbandonato. Si ha 1 ora e mezza per uscire. Bisogna essere minimo in 10, sennò si può essere accorpati a altri gruppi, in ogni caso lo stesso posto fa anche altre escape room più contenute . Quella del palazzo abbandonato è in `Via Giacomo Medici del Vascello, 26`, mentre le altre pare siano in `Via Privata Raimondo Montecuccoli, 29`.
 
-<>### GoKart (in ordine di come li ho trovati su internet):
-<> - [DromoKart](https://www.dromokart.com/over-14/), Buccinasco: Sabato e Domenica aperti solo dopo le 15;
-<> - [BigKart](https://www.gokart.it/index.php?pagina=prezzi), Rozzano;
-<> - [OttobianoMotorsport](https://www.southmilanokarting.com/noleggio-kart/mini-gp-tra-amici.html), Ottobiano: il più costoso ma forse anche il più professionale.
+[comment]: <> ### GoKart (in ordine di come li ho trovati su internet):
+[comment]: <> - [DromoKart](https://www.dromokart.com/over-14/), Buccinasco: Sabato e Domenica aperti solo dopo le 15;
+[comment]: <> - [BigKart](https://www.gokart.it/index.php?pagina=prezzi), Rozzano;
+[comment]: <> - [OttobianoMotorsport](https://www.southmilanokarting.com/noleggio-kart/mini-gp-tra-amici.html), Ottobiano: il più costoso ma forse anche il più professionale.
 
 Vi chiederei di comunicarmi appena potete chi vuole partecipare a cosa, nel senso chi vuol fare sia Sabato che Domenica o solo uno dei due (non è assolutamente vietato). 
 Ciao :)
