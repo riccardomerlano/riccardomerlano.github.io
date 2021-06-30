@@ -31,29 +31,31 @@ Date: `24-25/luglio/2021`
 [comment]: <> - Sveglia, colazione, **capire se si è ancora vivi**;
 [comment]: <> - Rientro
 
+Ho preferito tenere in considerazione di andare via Sabato in modo da vivere l'esperienza del Casinò senza troppi affanni e poter gestire la giornata di Domenica con più tranquillità.
+
 ## Programma
 ### Sabato (per chi vuol venire a S.Vincent):
- - Estrazione nel pomeriggio;
+ - Partenza nel pomeriggio;
  - Viaggio verso **S.Vincent**;
  - Check-in, doccia, cose così;
  - Aperitivo + Cena;
- - **Diventare ricchi** al casinò;
+ - **Diventare ricchi** al casinò.
 
 ### Domenica:
- - Sveglia, **colazione e umiliazione**;
+ - Sveglia e colazione;
  - Viaggio di ritorno in **direzione Milano**;
- - Ci incontriamo, distribuzione *accattivanti magliette*.
+ - Ci incontriamo;
  - **Escape Room** (ore 11/11:30 più o meno) -> vedi sezione Escape Room;
  - Aperitivo + Pranzo zona navigli;
  - Trasferimento verso **Cisliano**;
- - **Paintball** (orario da decidere in base a quanto vogliamo giocare);
+ - **Paintball** (orario da decidere in base a quanto vogliamo giocare) -> vedi sezione Paintball;
  - Torniamo a Vigevano;
  - **Last but not least** aperitivo + cena;
- - Casa **possibilmente respirando ancora**.
+ - Casa.
 
 ## Lista possibili attività
 ### Paintball:
- - [Paintbull](https://www.paintball.milano.it/gruppi/addio-al-celibato/), Cisliano: pare sia molto gettonato e hanno attività apposta per l’addio al celibato. Ho fatto una telefonata e mi hanno confermato che in zona bianca **è possibile usare docce e spogliatoi**. Le tariffe sono le stesse di una partita normale e le trovate [qui](https://www.paintball.milano.it/prenota/tariffe-paintball/). Da aggiungere 5 euro a testa per i vestiti mimetici per noi e quello da coniglio per il festeggiato.
+ - [Paintbull](https://www.paintball.milano.it/gruppi/addio-al-celibato/), Cisliano: pare sia molto gettonato e hanno attività apposta per l’addio al celibato. Ho fatto una telefonata e mi hanno confermato che in zona bianca **è possibile usare docce e spogliatoi**. Le tariffe sono le stesse di una partita normale e le trovate [qui](https://www.paintball.milano.it/prenota/tariffe-paintball/) (opinione personale: tenere conto di un paio di ore). Da aggiungere 5 euro a testa per i vestiti mimetici per noi e quello da coniglio per il festeggiato.
 
 ### Escape room:
  - [Impossible Society](https://theimpossiblesociety.it/), Milano: Zona Porta Ticinese, vicino ai navigli. È una escape room con buone recensioni, e rispetto a quella seguente mi sembra abbia proposte più suggestive. Ho chiamato per informazioni, fino a 6 persone sono 100 euro, da aggungere 10 euro per ogni persona in più. Indirizzo esatto: `Corso di Porta Ticinese, 107`.
@@ -64,5 +66,5 @@ Date: `24-25/luglio/2021`
 [comment]: <> - [BigKart](https://www.gokart.it/index.php?pagina=prezzi), Rozzano;
 [comment]: <> - [OttobianoMotorsport](https://www.southmilanokarting.com/noleggio-kart/mini-gp-tra-amici.html), Ottobiano: il più costoso ma forse anche il più professionale.
 
-Vi chiederei di comunicarmi appena potete chi vuole partecipare a cosa, nel senso chi vuol fare sia Sabato che Domenica o solo uno dei due (non è assolutamente vietato). 
+Vi chiederei di comunicarmi appena potete chi ha piacere di partecipare, magari indicando anche a cosa gli pacerebbe partecipare: nel senso chi vuol fare sia Sabato che Domenica o solo uno dei due (niente è vietato). 
 Ciao :)
