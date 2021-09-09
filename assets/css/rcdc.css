@@ -23,6 +23,8 @@ h2{
 
 .g{
   font-family: 'IM Fell Great Primer', serif;
+  font-weight: normal;
+  font-style: normal;
   font-size: 85px;
   border-radius: 12px;
   border-color: darkgreen;
