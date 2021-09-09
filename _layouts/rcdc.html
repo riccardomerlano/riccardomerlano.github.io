@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>RCDC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/rcdc.css">
+  </head>
+  <script>
+    function inject_button(){
+      document.getElementById("d").innerHTML = "<input class=\"g\" type=\"button\" value=\"click for RCDC experience\" onclick=\"waterfall()\">"
+    }
+    function waterfall(){
+      document.getElementById("d").innerHTML = "<h1 class=f1>Starting from an idea, we come up to top level Football</h1>"
+      setTimeout(()=>{
+        document.getElementById("d").innerHTML = "<h1 class=f1>Brace youselves, RCDC ascent is not over</h1>"
+        setTimeout(()=>{
+          document.getElementById("d").innerHTML = "<h2 class='f2'>Per aspera ad astra</h2><div class='f3'><img class='breathing' src='/assets/images/penezia3.png' width='65%' height='auto'></div><audio src='/assets/audio/m.mp3' autoplay>";
+        }, 10000)
+      }, 9800)
+    }
+  </script>
+  <body id="d" class="centerd"> <!-- onload="inject_button()"> -->
+    <input class="g" type="button" value="click for RCDC experience" onclick="waterfall()">
+  </body>
+  <div>
+    <p>Copyright © R.C.D.C. & Sons S.r.l. 2021</p>
+  </div>
+</html>
