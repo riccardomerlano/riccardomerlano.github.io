@@ -18,6 +18,4 @@ Interested in anime, manga, videogames and other japanese useless things.
 
 Low quality basketball player.
 
-Cyber Security Engineer at FacilityLive.
-
 Nothing much more to say :)
