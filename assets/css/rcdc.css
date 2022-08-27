@@ -4,13 +4,14 @@ body{
 
 .centerd {
     text-align: center;
-    font-family: 'IM Fell Great Primer', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
 }
 
 h1{
     color: darkgreen;
     text-align: center;
-    font-size: 150px;
+    font-size: 130px;
     flex-wrap: wrap;
 }
 
@@ -23,8 +24,7 @@ h2{
 
 .g{
   font-family: 'IM Fell Great Primer', serif;
-  font-weight: normal;
-  font-style: normal;
+  font-style: italic;
   font-size: 85px;
   border-radius: 12px;
   border-color: darkgreen;

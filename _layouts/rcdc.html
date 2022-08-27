@@ -2,35 +2,36 @@
 <html>
   <head>
     <title>RCDC</title>
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/rcdc.css">
   </head>
   <script>
-    function inject_button(){
+    /*function inject_button(){
       document.getElementById("d").innerHTML = "<input class=\"g\" type=\"button\" value=\"click for RCDC experience\" onclick=\"waterfall()\">"
-    }
+    }*/
     function start_music(){
       document.getElementById("a").play()
     }
     function waterfall(){
       document.getElementById("a").load()
-      document.getElementById("d").innerHTML = "<h1 class=f1>Starting from an idea, we come up to top level Football</h1>"
+      document.getElementById("d").innerHTML = "<h1 class=f1>\"Con voi ci puliamo il culo\" questo da sempre è il nostro motto</h1>"
       setTimeout(()=>{
-        document.getElementById("d").innerHTML = "<h1 class=f1>Brace youselves, RCDC ascent is not over</h1>"
+        document.getElementById("d").innerHTML = "<h1 class=f1>Ma questa volta, eviteremo di lavarci l'orifizio</h1>"
         setTimeout(()=>{
-          document.getElementById("d").innerHTML = "<h2 class='f2'>Per aspera ad astra</h2><div class='f3'><img class='breathing' src='/assets/images/penezia3.png' width='65%' height='auto' onload='start_music()'></div>";
+          document.getElementById("d").innerHTML = "<h2 class='f2'>Alea iacta est</h2><div class='f3'><img class='breathing' src='/assets/images/penissg.png' width='65%' height='auto' onload='start_music()'></div>";
         }, 10000)
       }, 9800)
     }
   </script>
   <body class="centerd"> <!-- onload="inject_button()"> -->
     <div id="d">
-        <input class="g" type="button" value="click for RCDC experience" onclick="waterfall()">
+        <input class="g" type="button" value="Click for RCDC experience" onclick="waterfall()">
     </div>
-    <audio id="a" src='/assets/audio/m.mp3'></audio>
-    <p style="color: pink;">Copyright © R.C.D.C. & Sons S.r.l. 2021</p>
+    <audio id="a" src='/assets/audio/m2.mp3'></audio>
+    <p style="color: pink;">Copyright © R.C.D.C. & Sons S.r.l. 2022</p>
     </body>
 </html>
