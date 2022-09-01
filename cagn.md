@@ -1,0 +1,4 @@
+---
+layout: cagn
+permalink: /cagn/
+---

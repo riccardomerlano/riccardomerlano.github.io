@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>CAGN</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>
+
+    function closeIframe() {
+        var iframe = document.getElementById('first_iframe');
+        iframe.remove()
+    }
+
+    function createIframe(){
+        var bod = document.getElementById('b');
+        var lin = document.getElementById('link');
+        var html_to_insert = '<iframe sandbox="allow-scripts" referrerpolicy="no-referrer" src=' + lin.value +' allowfullscreen width="1000" height="500"></iframe>'
+        bod.insertAdjacentHTML('beforeend', html_to_insert);
+    }
+</script>
+<body>
+
+    <div id="b" class="">
+        <h3>PROVA 1</h3>
+        <iframe id="first_iframe" sandbox="allow-scripts" referrerpolicy="no-referrer" src="https://starlive.xyz" allowfullscreen width="1000" height="500"></iframe>
+    </div>
+    <input id="link" lengt="200"><input value="Open" type="button" onclick=createIframe()>
+    <br>
+    <input value="Close First iframe" type="button" onclick=closeIframe()>
+</body>
+</html> 
