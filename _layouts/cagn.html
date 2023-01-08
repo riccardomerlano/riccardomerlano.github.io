@@ -13,7 +13,7 @@
     function createIframe(){
         var bod = document.getElementById('b');
         var lin = document.getElementById('link');
-        var html_to_insert = '<iframe sandbox="allow-scripts" referrerpolicy="no-referrer" src=' + lin.value +' allowfullscreen width="1000" height="500"></iframe>'
+        var html_to_insert = '<iframe sandbox="allow-scripts allow-same-origin" referrerpolicy="no-referrer" src=' + lin.value +' allowfullscreen width="1000" height="500"></iframe>'
         bod.insertAdjacentHTML('beforeend', html_to_insert);
     }
 </script>
