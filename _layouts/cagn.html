@@ -5,27 +5,45 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script>
 
-    function closeIframe() {
+    function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+    }
+
+    function setIframe(val) {
         var iframe = document.getElementById('first_iframe');
+        iframe.src = val
+    }
+
+    function closeIframe(val) {
+        var iframe = document.getElementById(val);
         iframe.remove()
+        if(Number.isInteger(val)){
+            var button_elem = document.getElementById("b_"+val);
+            button_elem.remove()
+        }
     }
 
     function createIframe(){
         var bod = document.getElementById('b');
         var lin = document.getElementById('link');
-        var html_to_insert = '<iframe sandbox="allow-scripts allow-same-origin" referrerpolicy="no-referrer" src=' + lin.value +' allowfullscreen width="1000" height="500"></iframe>'
+        var rand_id = getRandomInt(100);
+        var html_to_insert = '<br><iframe id="' + rand_id + '" sandbox="allow-scripts allow-same-origin" referrerpolicy="no-referrer" src=' + lin.value +' allowfullscreen width="1000" height="500"></iframe><br><input id="b_' + rand_id + '" value="Close Stream iframe" type="button" onclick=closeIframe(' + rand_id + ')>'
         bod.insertAdjacentHTML('beforeend', html_to_insert);
     }
 </script>
 <body>
 
     <div id="b" class="">
-        <h3>PROVA 1</h3>
+        <h3>CAGN OFFICIAL</h3>
         <!--<iframe id="first_iframe" sandbox="allow-scripts" referrerpolicy="no-referrer" src="https://starlive.xyz" allowfullscreen width="1000" height="500"></iframe>-->
-        <iframe id="first_iframe" sandbox="allow-scripts" referrerpolicy="no-referrer" src="https://calcio.ws/streaming-gratis-calcio-1.php" allowfullscreen width="1000" height="500"></iframe>
+        <input type="button" onclick=setIframe('https://starlive.xyz/') value="sl">
+        <input type="button" onclick=setIframe('https://calcio.ws/streaming-gratis-calcio-1.php') value="cws"> 
+        <input type="button" onclick=setIframe('https://sportsonline.gl/prog.txt') value="text">
+        <br>
+        <iframe id="first_iframe" sandbox="allow-scripts" referrerpolicy="no-referrer" allowfullscreen width="1000" height="500"></iframe>
+        <br>
+        <input value="Close site iframe" type="button" onclick=closeIframe('first_iframe')>
     </div>
-    <input id="link" lengt="200"><input value="Open" type="button" onclick=createIframe()>
-    <br>
-    <input value="Close First iframe" type="button" onclick=closeIframe()>
+    <input id="link" length="200"><input value="Open" type="button" onclick=createIframe()>   
 </body>
 </html> 
