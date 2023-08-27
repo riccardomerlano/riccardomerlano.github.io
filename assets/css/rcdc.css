@@ -4,7 +4,7 @@ body{
 
 .centerd {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'GFS Neohellenic', sans-serif;
     font-weight:600;
 }
 
@@ -33,7 +33,7 @@ h2{
 }
 
 .f1{
-    animation: fadeInOut ease-in-out 10s;
+    animation: fadeInOut ease-in-out 15s;
 }
 
 .f2 {
