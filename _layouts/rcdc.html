@@ -5,7 +5,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic&family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/rcdc.css">
   </head>
@@ -13,25 +14,34 @@
     /*function inject_button(){
       document.getElementById("d").innerHTML = "<input class=\"g\" type=\"button\" value=\"click for RCDC experience\" onclick=\"waterfall()\">"
     }*/
+    // inserito direttamente dentro alla funzione waterfall per l'effetto wow al momento del logo reveal
     function start_music(){
       document.getElementById("a").play()
     }
     function waterfall(){
-      document.getElementById("a").load()
-      document.getElementById("d").innerHTML = "<h1 class=f1>\"Con voi ci puliamo il culo\"</h1> <h1 class=f1>questo da sempre è il nostro motto</h1>"
+      //document.getElementById("a").load()
+      document.getElementById("a").play()
+      document.getElementById("d").innerHTML = "<h1 class=f1>Per molte volte siamo caduti</h1> <h1 class=f1>ma mai ci siamo arresi</h1>"
       setTimeout(()=>{
-        document.getElementById("d").innerHTML = "<h1 class=f1>Ma questa volta, eviteremo di usare il bidet</h1>"
+        document.getElementById("d").innerHTML = "<h1 class=f1>Ancora una volta rinasceremo</h1> <h1 class=f1>per sfidare gli Dèi e la fortuna</h1>"
         setTimeout(()=>{
-          document.getElementById("d").innerHTML = "<h2 class='f2'>Alea iacta est</h2><div class='f3'><img class='breathing' src='/assets/images/penissg.png' width='65%' height='auto' onload='start_music()'></div>";
-        }, 10000)
-      }, 9800)
+          document.getElementById("d").innerHTML = "<h1 class=f1>E se il nostro fisico non reggerà lo sforzo e cadrà in battaglia...</h1>"
+          setTimeout(()=>{
+            document.getElementById("d").innerHTML = "<h1 class=f1>...Allora sarà la nostra anima a raggiungere l'Olimpo e la gloria eterna</h1>"
+            setTimeout(()=>{
+              //document.getElementById("d").innerHTML = "<h2 class='f2'>C'inculiamo!</h2><div class='f3'><img class='breathing' src='/assets/images/sl.png' width='65%' height='auto' onload='start_music()'></div>";
+              document.getElementById("d").innerHTML = "<h2 class='f2'>Le vostre pene iniziano qui</h2><div class='f3'><img class='breathing' src='/assets/images/psmall.png' width='65%' height='auto'></div>";
+            }, 15000)
+          }, 15000)
+        }, 15000)
+      }, 15000)
     }
   </script>
   <body class="centerd">
     <div id="d">
         <input class="g" type="button" value="Click for RCDC experience" onclick="waterfall()">
     </div>
-    <audio id="a" src='/assets/audio/m2.mp3'></audio>
+    <audio id="a" src='/assets/audio/m3.mp3'></audio>
     <p style="color: pink;">Copyright © R.C.D.C. & Sons S.r.l. 2022</p>
     </body>
 </html>
