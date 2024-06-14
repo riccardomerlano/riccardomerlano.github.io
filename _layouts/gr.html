@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+  <head>
+    <title>10 Anni insieme</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> -->
+    <!--<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/gr.css">
+  </head>
+  <script>
+    /*function inject_button(){
+      document.getElementById("d").innerHTML = "<input class=\"g\" type=\"button\" value=\"click for RCDC experience\" onclick=\"waterfall()\">"
+    }*/
+    // inserito direttamente dentro alla funzione waterfall per l'effetto wow al momento del logo reveal
+    function start_music(){
+      document.getElementById("a").play()
+    }
+
+    const sleepNow = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
+
+    const first_text_waterfall = `<h1 class=f1>Ciao Giorgia</h1> <h1 class=emoji>❤️</h1>
+<h1 class=f1>so che potevo scriverti un biglietto normale</h1> <h1 class=emoji>🖊️</h1>
+<h1 class=f1>ma sai che non mi piace fare cose banali</h1> <h1 class=emoji>🤷🏻</h1>
+<h1 class=f1>e allora ho deciso di farti una cosa diversa</h1> <h1 class=emoji>🎆</h1>
+<h1 class=f1>spero possa piacerti quello che ho pensato per te</h1> <h1 class=emoji>💝</h1>
+<input class="g" type="button" value="Allora, ti va di leggere quello che ho da dirti?" onclick="waterfall(second_text_waterfall, 'musica1', '')">`
+
+    const second_text_waterfall = `<h1 class=f1>Son già passati 10 anni da quando abbiamo deciso</h1>
+<h1 class=f1>che avremmo dovuto frequentarci "ufficialmente"</h1>
+<h1 class=f1>e ad oggi direi che siamo stati ripagati della scelta.</h1>
+<h1 class=f1>Riguardando indietro, quante esperienze abbiamo condiviso.</h1> <h1 class=emoji>👩🏻‍❤️‍👨🏻</h1>
+<h1 class=f1>A partire da questa, forse una delle prime foto insieme</h1> 
+<img class='f1' src='/assets/images/gr/IMG-20140730-WA0016.jpg' width='65%' height='auto'>
+<h1 class=f1>Ma anche tutte queste, a casa e in giro per l'Italia</h1> <h1 class=emoji>🧳</h1>
+<h2 class='f1'>Tanti anni fa</h2><div class='f1'><img src='/assets/images/gr/DSC_0981.JPG' width='65%' height='auto'></div>
+<h2 class='f1'>Prima volta a Firenze</h2><div class='f1'><img class='f1' src='/assets/images/gr/DSC_1607.JPG' width='65%' height='auto'></div>
+<h2 class='f1'>Sul lago di Como</h2><div class='f1'><img class='f1' src='/assets/images/gr/IMG_4611.JPG' width='65%' height='auto'></div>
+<h2 class='f1'>Ar colosseo</h2><div class='f1'><img class='f1' src='/assets/images/gr/IMG_20190823_122158.jpg' width='65%' height='auto'></div>
+<h2 class='f1'>Questa è iconica</h2><div class='f1'><img class='f1' src='/assets/images/gr/IMG_20220808_194616.jpg' width='65%' height='auto'></div>
+<h1 class=f1>Ad arrivare a questa, una delle ultime che abbiamo scattato</h1>
+<img class='f1' src='/assets/images/gr/DSC02137.JPG' width='65%' height='auto'>
+<h1 class=f1>Ma io spero che queste non rimangano le uniche scattate insieme</h1> <h1 class=emoji>📷</h1>
+<h1 class=f1>Perchè tante avventure ci aspettano là fuori</h1>
+<h1 class=f1>Dobbiamo fare ancora tante esperienze</h1>
+<h1 class=f1>Tanti viaggi in giro per il mondo</h1> <h1 class=emoji>✈️</h1>
+<h1 class=f1>E dobbiamo realizzare ancora tanti sogni nel cassetto</h1>
+<h1 class=f1>Non lasciamo che rimangano tali!</h1> <h1 class=emoji>💭</h1>
+<h1 class=f1>Ma vada come vada</h1>
+<h1 class=f1>Spero che tu voglia realizzarli insieme a me</h1> <h1 class=emoji>💕</h1>
+<h1 class=f1>A tal proposito, dovrei essere lì nei paraggi </h1>
+<h1 class=f1>E dovrei avere una busta per te</h1> <h1 class=emoji>💌</h1>
+<input class="g" type="button" value="E sai cosa diciamo in queste situazioni?" onclick="waterfall(cppt_text_waterfall, 'musica2', 'musica1')">`
+
+    const cppt_text_waterfall = `<h1 class=f1>Esattamente</h1>
+<input class="g" type="button" value="C'è posta per te!" onclick="waterfall(third_text_waterfall, 'musica3', 'musica2')">`
+
+    const third_text_waterfall = `<h1 class=f1>Prima che tu riscatti questo buono, è giusto sapere cosa comporta</h1>
+<h1 class=f1>Mi spiace, niente piadina con la salsiccia</h1> <h1 class=emoji>🙇🏻‍♂️</h1>
+<h1 class=f1>Ma, nello stare con me, nulla cambierà rispetto ai 10 anni passati</h1>
+<h1 class=f1>Sarò sempre io: polemico, indeciso, insolente, a volte scontroso</h1>
+<h1 class=f1>Farò sempre le mie solite battute e i miei soliti scherzi</h1> <h1 class=emoji>🫰🏼</h1>
+<h1 class=f1>Ma cercherò di essere sempre il tuo punto di sfogo</h1>
+<h1 class=f1>Ti ascoletò se vorrai parlare</h1>
+<h1 class=f1>Ti parlerò se mi vorrai ascoltare</h1>
+<h1 class=f1>Insomma, nulla cambierà rispetto ad ora</h1>
+<h1 class=f1>Cercherò sempre di coinvolgerti nei miei interessi</h1> <h1 class=emoji>🫂</h1>
+<h2 class='f1'>A volte indovinandoli</h2><img class='f1' src='/assets/images/gr/_cf923b29-2c3d-47dc-9ff6-89c6cc048a1e.jpeg' width='65%' height='auto'>
+<h1 class=f1>Perchè vorrò sempre condividere con te quello che mi piace</h1>
+<h1 class=f1>E sarò sempre felice di essere coinvolto nei tuoi interessi</h1> <h1 class=emoji>👫🏻</h1>
+<h2 class='f1'>Qualsiasi essi siano</h2><img class='f1' src='/assets/images/gr/_85a213b1-f444-404a-93bb-6f8437c2f008.jpeg' width='65%' height='auto'>
+<h1 class=f1>Perchè saprò il piacere di condividere qualcosa</h1> 
+<h1 class=f1>Con la persona più importante</h1> <h1 class=emoji>💘</h1>
+<h1 class=f1>E allora, ho un pensiero da condividere con te</h1>
+<h1 class=f1>Se sono ancora in zona, dovrei avere un'altra cosa per te</h1> <h1 class=emoji>📦</h1>
+<input class="g" type="button" value="Se il mio cuore fosse una scatola, dentro cosa ci sarebbe?" onclick="waterfall(fourth_text_waterfall, 'musica4', 'musica3')">`
+
+    const fourth_text_waterfall = `<h1 class=f1>Ci sarebbero dentro tutti i bei momenti passati insieme in questi anni</h1>
+<h1 class=f1>Ma soprattutto ci saresti tu</h1> <h1 class=emoji>🫵🏼</h1>
+<h1 class=f1>Che ormai sei parte di me</h1>
+<h1 class=f1>Ora spero vorrai riscattare il buono</h1> <h1 class=emoji>🙏🏼</h1>
+<h1 class=f1>Per darmi la possibilità di continuare a essere parte della mia vita</h1>
+<h1 class=f1>Ora basta, ho finito le parole (e un pò anche le lacrime haha)</h1> <h1 class=emoji>😭</h1>
+<h1 class=f1>Questo "biglietto" è il mio regalo per te</h1>
+<h1 class=f1>Spero ti sia piaciuto</h1> <h1 class=emoji>😌</h1>
+<h1 class=f1>Mi è costato molto tempo per realizzarlo (rubato al lavoro hehe)</h1> 
+<h1 class=f1>E ci ho messo dentro tutto me stesso</h1> <h1 class=emoji>🫶🏼</h1>
+<h1 class=f1>Buon decimo anniversario, piccina mia</h1>
+<h1 class=f2>Ti Amo</h1> <h1 class=emoji>🐹❤️🐱</h1>` 
+
+    let waterfall_flag = true
+
+    function pause_resume_waterfall(){
+      waterfall_flag = !waterfall_flag
+      if (waterfall_flag) {
+        document.getElementById("pause").innerHTML = '<input class="g" type="button" value="Pausa" onclick="pause_resume_waterfall()">'
+      } else {
+        document.getElementById("pause").innerHTML = '<input class="g" type="button" value="Resume" onclick="pause_resume_waterfall()">'
+      }
+    }
+
+    async function waterfall(text_multiline, music_to_play, music_to_stop){
+      //document.getElementById("a").load()
+      let text_array = text_multiline.split("\n")
+      let text_array_length = text_array.length
+      let i = 0;
+
+      if (music_to_play != ""){
+        if (music_to_stop != ""){
+          document.getElementById(music_to_stop).pause()
+        }
+        document.getElementById(music_to_play).play()
+      }
+      
+      do {
+        if (waterfall_flag) {
+          document.getElementById("main").innerHTML = text_array[i]
+          await sleepNow(3000)
+          i = i + 1
+        }
+        await sleepNow(3000)
+      } while (i < text_array_length);
+    }
+  </script>
+  <body class="centerd">
+    <div id="main">
+        <input class="g" type="button" value="10 Anni Insieme" onclick="waterfall(first_text_waterfall, '')">
+    </div>
+    <audio id="musica1" src='/assets/audio/How_Long_Will_I_Love_You.mp3'></audio>
+    <audio id="musica2" src='/assets/audio/Loves_Theme.mp3'></audio>
+    <audio id="musica3" src='/assets/audio/All_of_Me.mp3'></audio>
+    <audio id="musica4" src='/assets/audio/Perfect.mp3'></audio>
+    <br>
+    </body>
+    <footer>
+      <div id="pause">
+        <input class="g" type="button" value="Pause" onclick="pause_resume_waterfall()">
+      </div>
+    </footer>
+</html>

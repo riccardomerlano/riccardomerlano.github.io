@@ -1,0 +1,129 @@
+body{
+    background-color: FloralWhite;
+}
+
+.centerd {
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-weight:500;
+}
+
+h1{
+    color: FireBrick;
+    text-align: center;
+    font-size: 130px;
+    flex-wrap: wrap;
+}
+
+h2{
+  color: FireBrick;
+  text-align: center;
+  font-size: 85px;
+  flex-wrap: wrap;
+}
+
+.g{
+  animation: fadeIn ease 3s;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-size: 85px;
+  border-radius: 12px;
+  border-color: SeaShell;
+  background-color: FireBrick;
+  color: SeaShell;
+}
+
+.emoji{
+  animation: fadeInOut ease-in-out 6s;
+  font-family: "Noto Color Emoji", sans-serif;
+}
+
+.f1{
+    animation: fadeInOut ease-in-out 6s;
+}
+
+.f2 {
+    animation: fadeIn ease 3s;
+}
+
+.breathing {
+    -webkit-animation: breathing 7s ease-in-out infinite normal;
+    animation: breathing 7s ease-in-out infinite normal;
+}
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  /*25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }*/
+
+  50% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  /*25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }*/
+
+  50% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes fadeIn {
+0% {opacity:0}
+100% {opacity:1}
+}
+
+@keyframes fadeInOut{
+    0% {opacity:0;}
+    45% {opacity:1;}
+    55% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes breath{
+    0% {width: 100%; height: 100%;}
+    100% {width: 50%; height: 50%;}
+}
