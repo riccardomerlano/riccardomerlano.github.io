@@ -1,4 +1,4 @@
 ---
 layout: gr
-permalink: /10annni/
+permalink: /10anni/
 ---
