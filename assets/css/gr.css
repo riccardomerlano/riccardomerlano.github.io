@@ -32,7 +32,7 @@ h2{
   background-color: FireBrick;
   color: SeaShell;
   width: 65%;
-  height: auto;
+  height: fit-content;
   overflow-wrap: normal;
 }
 
