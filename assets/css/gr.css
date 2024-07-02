@@ -33,6 +33,7 @@ h2{
   color: SeaShell;
   width: 65%;
   height: auto;
+  overflow-wrap: normal;
 }
 
 .emoji{
