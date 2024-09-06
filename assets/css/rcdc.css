@@ -4,8 +4,9 @@ body{
 
 .centerd {
     text-align: center;
-    font-family: 'Ysabeau SC', sans-serif;
-    font-weight:400;
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h1{
@@ -22,6 +23,10 @@ h2{
   flex-wrap: wrap;
 }
 
+.emoji{
+  font-family: "Noto Color Emoji", sans-serif;
+}
+
 .g{
   font-family: 'IM Fell Great Primer', serif;
   font-style: italic;
@@ -32,8 +37,14 @@ h2{
   color: pink;
 }
 
+.g1{
+  font-family: 'IM Fell Great Primer', serif;
+  font-style: italic;
+  color: pink;
+}
+
 .f1{
-    animation: fadeInOut ease-in-out 15s;
+    animation: fadeInOut ease-in-out 13500ms;
 }
 
 .f2 {
@@ -43,6 +54,11 @@ h2{
 .breathing {
     -webkit-animation: breathing 7s ease-in-out infinite normal;
     animation: breathing 7s ease-in-out infinite normal;
+}
+
+.grow {
+  -webkit-animation: grow 3500ms ease-in-out normal;
+  animation: grow 3500ms ease-in-out normal;
 }
 
 @-webkit-keyframes breathing {
@@ -102,6 +118,30 @@ h2{
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
     transform: scale(0.9);
+  }
+}
+
+@-webkit-keyframes grow {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes grow {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 }
 

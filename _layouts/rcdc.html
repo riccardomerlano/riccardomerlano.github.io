@@ -9,7 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Quattrocento&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/rcdc.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/rcdc.css">
   </head>
   <script>
     /*function inject_button(){
@@ -22,27 +24,32 @@
     function waterfall(){
       //document.getElementById("a").load()
       document.getElementById("a").play()
-      document.getElementById("d").innerHTML = "<h1 class=f1>Per molte volte siamo caduti</h1> <h1 class=f1>ma mai ci siamo arresi</h1>"
+      document.getElementById("d").innerHTML = "<h1 class=f1>La nostra storia?</h1> <h1 class=f1>Una storia di eroi e di passione</h1>"
       setTimeout(()=>{
-        document.getElementById("d").innerHTML = "<h1 class=f1>Ancora una volta rinasceremo</h1> <h1 class=f1>per sfidare gli Dèi e la fortuna</h1>"
+        document.getElementById("d").innerHTML = "<h1 class=f1>Dalle toilette pubbliche di periferia</h1> <img class='f1' src='../assets/images/orcdc.jpeg' width='65%' height='auto'>"
         setTimeout(()=>{
-          document.getElementById("d").innerHTML = "<h1 class=f1>E se il nostro fisico non reggerà lo sforzo e cadrà in battaglia...</h1>"
+          document.getElementById("d").innerHTML = "<h1 class=f1>Fino ai palcoscenici del calcio che conta</h1> <img class='f1' src='../assets/images/nrcdc.jpeg' width='65%' height='auto'>"
           setTimeout(()=>{
-            document.getElementById("d").innerHTML = "<h1 class=f1>...Allora sarà la nostra anima a raggiungere l'Olimpo e la gloria eterna</h1>"
+            document.getElementById("d").innerHTML = "<h1 class=f1>La strada è stata lunga e tortuosa</h1> <h1 class=f1>Ma è viva la fiamma che brucia la nostra benzina</h1>"
             setTimeout(()=>{
               //document.getElementById("d").innerHTML = "<h2 class='f2'>C'inculiamo!</h2><div class='f3'><img class='breathing' src='/assets/images/sl.png' width='65%' height='auto' onload='start_music()'></div>";
-              document.getElementById("d").innerHTML = "<h2 class='f2'>Le vostre pene iniziano qui</h2> <h2 class='f2'>RCDC Penethinaikos</h2> <div class='f3'><img class='breathing' src='/assets/images/psmall.png' width='65%' height='auto'></div>";
-            }, 15000)
-          }, 15000)
-        }, 15000)
-      }, 15000)
+              document.getElementById("d").innerHTML = "<h1 class='f2'>FORTIS FORTUNA ADIUVAT</h1> <h2 class='f2'>RCDC Penit St.Petoburgo</h2> <div class='f3'><div class='grow'><img class='breathing' src='../assets/images/penit3.png' width='65%' height='auto'></div></div>";
+            }, 13500)
+          }, 13500)
+        }, 13500)
+      }, 13500)
     }
   </script>
   <body class="centerd">
     <div id="d">
         <input class="g" type="button" value="Click for RCDC experience" onclick="waterfall()">
+        <h3 class="g1">For a better experience, turn up the volume 🔊</h3>
     </div>
-    <audio id="a" src='/assets/audio/m3.mp3'></audio>
-    <p style="color: pink;">Copyright © R.C.D.C. & Sons S.r.l. 2023</p>
-    </body>
+    <audio id="a" src='../assets/audio/t.mp3'></audio>
+  </body>
+  <footer class="centerd">
+    <div id="d">
+      <p style="color: pink;">Copyright © R.C.D.C. & Sons S.r.l. 2024</p>
+    </div>
+  </footer>
 </html>
