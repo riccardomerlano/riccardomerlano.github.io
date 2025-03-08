@@ -16,6 +16,4 @@ Great estimator of retrogaming (even if sometimes I found it quite boring).
 
 Interested in anime, manga, videogames and other japanese useless things.
 
-Low quality basketball player.
-
 Nothing much more to say :)
