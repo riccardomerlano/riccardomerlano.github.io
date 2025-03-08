@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: Riccardo Merlano CV
+title: Riccardo Merlano - Curriculum Vitae
 permalink: /cv/
 ---
 
