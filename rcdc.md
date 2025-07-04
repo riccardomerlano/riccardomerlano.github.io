@@ -1,4 +1,0 @@
----
-layout: rcdc
-permalink: /rcdc/
----
